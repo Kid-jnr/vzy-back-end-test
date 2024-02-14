@@ -6,7 +6,6 @@ config();
 const configService = new ConfigService();
 
 export const PORT = configService.get("PORT");
-export const FRONTEND_URL = configService.get("FRONTEND_URL");
 export const JWT_SECRET = configService.get("JWT_SECRET");
 
 
